@@ -275,7 +275,7 @@ textarea {
 #title-grid > header {
   grid-area: head;
   height: 200px;
-  background-color: #8ca0ff;
+  background-color: #a30000;
 }
 
 #title-grid > nav {
