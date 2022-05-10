@@ -282,7 +282,7 @@ textarea {
   background-color: #ffa08c;
 }
 
-#title0-grid > main {
+#title-grid > main {
   grid-area: main;
   background-color: #ffff64;
 }
