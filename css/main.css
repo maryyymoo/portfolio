@@ -264,7 +264,7 @@ textarea {
 #title-grid{
   display: grid;
   width: 100%;
-  height: 250px;
+  height: 100%;
   grid-template-areas: "head head"
                        "nav  main"
                        "nav  foot";
@@ -274,6 +274,7 @@ textarea {
 
 #title-grid > header {
   grid-area: head;
+  height: 150px;
   background-color: #8ca0ff;
 }
 
