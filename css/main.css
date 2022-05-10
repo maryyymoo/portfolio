@@ -274,7 +274,6 @@ textarea {
 
 #title-grid > header {
   grid-area: head;
-  border: 500px;
   height: 500px;
   background-color: #8ca0ff;
 }
@@ -282,11 +281,13 @@ textarea {
 #title-grid > nav {
   grid-area: nav;
   background-color: #ffa08c;
+  margin-top: 100px
 }
 
 #title-grid > main {
   grid-area: main;
   background-color: #ffff64;
+  margin-top: 100px
 }
 
 #title-grid > footer {
