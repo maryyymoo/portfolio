@@ -274,6 +274,7 @@ textarea {
 
 #title-grid > header {
   grid-area: head;
+  border: 500px;
   height: 500px;
   background-color: #8ca0ff;
 }
