@@ -41,6 +41,7 @@ h1 {
   font-size: 2em;
   color: aliceblue;
   margin: 25px 100px 25px 500px;
+  text-shadow: 4px 4px black;
 }
 
 /* Grouping content
