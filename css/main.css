@@ -118,10 +118,6 @@ textarea {
   width: auto;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
 .invisible {
   visibility: hidden;
 }
@@ -148,14 +144,10 @@ textarea {
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
 
-@media only screen and (min-width: 1500px) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 1500px){
+  width: 100%;
+  max-height: 2000px;
 }
 
 @media only screen and (max-width: 320px){
