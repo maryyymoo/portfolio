@@ -278,8 +278,8 @@ textarea {
   background-color: #575757;
 }
 .experience-points{
-  border-style: solid;
   border-block-color: rgb(184, 0, 0);
+  border-style: solid;
 }
 .block {
   display: block;
