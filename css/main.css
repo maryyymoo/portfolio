@@ -74,7 +74,6 @@ fieldset {
   margin: 0;
   padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -83,31 +82,11 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
 .hidden,
 [hidden] {
   display: none !important;
 }
 
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
 
 .sr-only {
   border: 0;
@@ -282,7 +261,7 @@ textarea {
   grid-area: nav;
   background-color: #9e9e9e;
   margin-top: 100px;
-  padding-top:
+  padding-top: 50px
   padding-left: 5px;
   color: rgb(255, 255, 255);
   text-shadow: 0px 0px 5px rgb(0, 0, 0);
@@ -298,7 +277,6 @@ textarea {
   grid-area: foot;
   background-color: #8cffa0;
 }
-
 .experience-points{
   border-style: solid;
   border-block-color: rgb(255, 236, 236);
@@ -313,4 +291,7 @@ textarea {
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+}
+.grad {
+margin-left: 450px
 }
