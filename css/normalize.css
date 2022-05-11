@@ -63,13 +63,7 @@ h4{
   font-weight: lighter; 
   padding-left: 69px;
 }
-/* Grouping content
-   ========================================================================== */
 
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
 
 hr {
   box-sizing: content-box; /* 1 */
@@ -77,27 +71,17 @@ hr {
   overflow: visible; /* 2 */
 }
 
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
-/* Text-level semantics
-   ========================================================================== */
 
-/**
- * Remove the gray background on active links in IE 10.
- */
 
 a {
   background-color: transparent;
-  color: black
-}
+  color: rgb(255, 255, 255)
+}j
 
 /**
  * 1. Remove the bottom border in Chrome 57-
